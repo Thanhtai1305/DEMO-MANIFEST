@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <default remote="origin" revision="master" />
+  <remote name="UDP" fetch="https://github.com/ZackDuonng/" />
+  <remote name="payload" fetch="https://github.com/Gremsy/" />
+  <remote name="gSDK" fetch="https://github.com/Gremsy/" />
+
+  <project remote="UDP" name="CommunicationUDP.git" path="ComUDP" revision="develop"  / >
+  <project remote="payload" name="PayloadSdk.git" path="PayloadSdk" revision="develop" />
+  <project remote="gSDK" name="gSDK.git" path="gSDK" />
+</manifest>
